@@ -1,0 +1,54 @@
+ header {
+        padding-bottom: 5px;
+    }
+    .logo {
+        height: 40px;
+        margin-top: 10px;
+    }
+    .compas {
+        position: absolute;
+        top: -2px;
+        right: 10px;
+        display: inline-block;
+        height: 43px;
+        margin-top: 10px;
+        float: right;
+        cursor: pointer;
+    }
+    .menu {
+        display: inline-block;
+        position: absolute;
+        top: 59px;
+        right: 0;
+        width: 50vw;
+        margin-right: 0;
+        text-align: center;
+        z-index: 5;
+        background-color: #fff;
+    }
+    .opacity {
+        opacity: 0;
+    }
+    .menu li {
+        list-style-type: none;
+        padding: 20px 40px;
+        width: 50vw;
+        text-align: center
+    }
+    .menu li:hover {
+        color: #f1f1f1;
+        background-color: lightgray;
+    }
+    .menu a {
+        padding: 20px 40px;
+    }
+
+
+.blog {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.blog>article {
+    margin: 10px;
+}

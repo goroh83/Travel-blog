@@ -1,0 +1,146 @@
+ ul {
+        float: right;
+    }
+    li {
+        display: inline-block;
+        margin-right: 30px;
+        text-transform: uppercase;
+    }
+    li:last-child {
+        margin-right: 0px;
+    }
+    header {
+        background-color: #fff;
+        float: left;
+        width: 100%;
+        border-bottom: 0.1px solid silver;
+        position: fixed;
+        z-index: 5
+    }
+    ul {
+        float: right;
+    }
+    li {
+        display: inline-block;
+        margin-right: 30px;
+        text-transform: uppercase;
+    }
+    li:last-child {
+        margin-right: 10px;
+    }
+    nav a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+    }
+    /* header large */
+    header.large {
+        height: 100px;
+    }
+    header.large .logo {
+        margin-top: 25px;
+        height: 50px;
+    }
+    header.large ul {
+        margin-top: 40px;
+    }
+    /* header small */
+    header.small {
+        height: 55px;
+        box-shadow: -1px 2px 20px -4px rgba(117, 112, 117, 0.69);
+    }
+    header.small ul li {
+        margin-top: 15px;
+        font-size: 0.8em;
+    }
+    header.small .logo {
+        margin-top: 10px;
+        height: 30px;
+    }
+    header.small ul.menu-1 {
+        margin-top: 28px;
+    }
+    .menu li.small {
+        margin-right: 20px;
+    }
+    header,
+    nav,
+    a,
+    img,
+    li,
+    ul {
+        transition: .7s all;
+        -moz-transition: .7s all;
+        -webkit-transition: .7s all;
+        -o-transition: .7s all;
+    }
+    li {
+        font-size: 1em;
+    }
+    .compas {
+        display: none;
+    }
+    .hero img {
+        display: block;
+        width: 100%;
+        padding-top: 100px;
+        height: auto;
+    }
+
+
+.main-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.content {
+    -webkit-box-flex: 75;
+    -ms-flex: 75;
+    flex: 75;
+}
+
+.aside {
+    -webkit-box-flex: 25;
+    -ms-flex: 25;
+    flex: 25;
+}
+
+
+/* blog flex */
+
+.blog>article {
+    -webkit-box-flex:1;
+    -ms-flex:1;
+    flex:1;
+    margin: 10px;
+}
+
+.blog>article {
+    max-width: 90%;
+}
+
+.articles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.article-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.article__img img {
+    max-height: 150px;
+}
+
+
+/******************** articles *******************/
