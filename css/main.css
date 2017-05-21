@@ -290,6 +290,39 @@ figcaption {
 }
 
 
+/********************* aside *******************/
+
+aside h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.aside__follow__icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack:  distribute;
+    justify-content:  space-around;
+    margin: 10px;
+}
+
+.aside__follow__icons img {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 80px;
+    text-align: center;
+    -webkit-transform: all 0.3ms ease-in;
+    transform: all 0.3ms ease-in;
+}
+
+.aside__social__icons img:hover {
+    background-color: #A9ABAF;
+    border-radius: 3px;
+}
+
+
+
 footer {
     width: 90%;
     margin: 0 auto 20px auto;
