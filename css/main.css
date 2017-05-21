@@ -300,7 +300,9 @@ aside h2 {
 }
 
 aside p {
-    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+
 }
 
 aside>div {
@@ -332,10 +334,24 @@ aside>div {
 }
 
 .newsletter input {
-    margin: 0 auto;
+    display: block;
+    margin: 10px auto;
     height: 30px;
     text-align: center;
+    border-radius: 3px;
 }
+
+.newsletter__subscribe__submit {
+    display: block;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    text-transform: uppercase;
+}
+
+.newsletter__subscribe p {
+
+}
+
 
 footer {
     width: 90%;
