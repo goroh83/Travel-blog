@@ -295,6 +295,16 @@ figcaption {
 aside h2 {
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+aside p {
+    text-align: center;
+}
+
+aside>div {
+    border-bottom: 4px double #141823;
 }
 
 .aside__follow__icons {
@@ -316,12 +326,16 @@ aside h2 {
     transform: all 0.3ms ease-in;
 }
 
-.aside__social__icons img:hover {
-    background-color: #A9ABAF;
+.aside__follow__icons img:hover {
+    background-color: #e5e5e5;
     border-radius: 3px;
 }
 
-
+.newsletter input {
+    margin: 0 auto;
+    height: 30px;
+    text-align: center;
+}
 
 footer {
     width: 90%;
