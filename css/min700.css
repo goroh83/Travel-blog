@@ -143,4 +143,38 @@
 }
 
 
+
+
+
+/********************* aside *******************/
+
+.aside__social h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.aside__social__icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack:  distribute;
+    justify-content:  space-around;
+    margin: 10px;
+}
+
+.aside__social__icons img {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 80px;
+    text-align: center;
+    -webkit-transform: all 0.3ms ease-in;
+    transform: all 0.3ms ease-in;
+}
+
+.aside__social__icons img:hover {
+    background-color: #A9ABAF;
+    border-radius: 3px;
+}
+
 /******************** articles *******************/
