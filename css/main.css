@@ -148,10 +148,7 @@ span.read_more small:hover {
     width: 100%;
 }
 
-.blog>h2 {
-    display: inline-block;
 
-}
 
 .blog {
     display: -webkit-box;
@@ -198,10 +195,6 @@ span.read_more small:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    overflow: auto;
-}
-
-.clearfix {
     overflow: auto;
 }
 

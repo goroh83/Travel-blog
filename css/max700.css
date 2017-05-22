@@ -1,4 +1,8 @@
- header {
+body {
+    font-size: .9em;
+}
+
+header {
         padding-bottom: 5px;
     }
     .logo {
@@ -44,10 +48,7 @@
     }
 
 
-.blog {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
+
 
 .blog>article {
     margin: 10px;
