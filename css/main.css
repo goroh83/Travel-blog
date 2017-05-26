@@ -23,7 +23,7 @@ body {
     color: #141823;
 }
 .nav-container, .container,
-.main-container {
+.main-container, .footer-container {
     max-width: 1366px;
     margin: 0 auto;
     position: relative;
@@ -90,7 +90,7 @@ span.read_more small{
     font-size: 0.7em;
     cursor: pointer;
     border: 1px solid #141823;
-    border-radius: 1px;
+    border-radius: 2px;
     margin: 5px 0px;
     padding: 2px 3px 2px 3px;
     -webkit-transition: all 300ms ease;
@@ -366,10 +366,23 @@ aside>div {
     border-radius: 3px;
 }
 
+.newsletter__subscribe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
 .newsletter__subscribe__submit {
-    display: block;
+    font-size: 1em;
+    display: inline-block;
     text-align: center;
-    margin: 10px auto 10px auto;
+    color: #fff;
+    background-color: #141823;
+    padding: 7px 15px;
+    border-radius: 2px;
+    margin: 8px auto 15px auto;
     text-transform: uppercase;
 }
 
@@ -378,12 +391,43 @@ aside>div {
 }
 
 
-footer {
+
+/**************** footer *******************/
+
+.footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+
+.footer-container section {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px 20px;
+}
+
+.footer-container section:nth-child(3) p{
+    font-size: 1em;
+    padding: 5px;
+    border-top: 1px solid #141823;
+    line-height: 1.4em;
+}
+
+.footer-container section:nth-child(3) img{
+    height: 20px;
+    float: left;
+}
+
+.copyright {
     width: 90%;
     margin: 0 auto 20px auto;
 }
 
-footer P {
+.copyright P {
     font-size: .9em;
     text-align: center;
     padding-top: 10px;
