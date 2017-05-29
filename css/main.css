@@ -197,6 +197,7 @@ span.read_more small:hover {
 .article__text img {
     float: right;
     height: 150px;
+    border-radius: 2px;
 }
 
 /********************* gallery style *********************/
@@ -356,6 +357,26 @@ aside>div {
 }
 .newsletter__subscribe p {}
 
+.instagram-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 5px 5px;
+}
+
+.instagram img {
+    -webkit-box-flex:1;
+    -ms-flex:1;
+    flex:1;
+    width: 40%;
+    height: 40%;
+    padding: 5px;
+    border-radius: 2px;
+}
 /**************** footer *******************/
 
 .footer-container::before {
@@ -373,7 +394,6 @@ aside>div {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin: 0 5px;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-around;
