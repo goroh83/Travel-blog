@@ -3,11 +3,11 @@ body {
 }
 
 header {
-        padding-bottom: 5px;
+        padding-bottom: 0px;
     }
     .logo {
         height: 40px;
-        margin-top: 10px;
+        margin-top: 5px;
         margin-left: 10px;
     }
     .compas {
@@ -16,7 +16,7 @@ header {
         right: 10px;
         display: inline-block;
         height: 43px;
-        margin-top: 10px;
+        margin-top: 5px;
         float: right;
         cursor: pointer;
     }

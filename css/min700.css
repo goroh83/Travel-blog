@@ -29,7 +29,7 @@ header {
         height: 100px;
     }
     header.large .logo {
-        margin-top: 25px;
+        margin-top: 22.5px;
         height: 50px;
     }
     header.large ul {
@@ -37,7 +37,7 @@ header {
     }
     /* header small */
     header.small {
-        height: 55px;
+        height: 45px;
         box-shadow: -1px 2px 20px -4px rgba(117, 112, 117, 0.69);
     }
     header.small ul li {
@@ -45,7 +45,7 @@ header {
         font-size: 0.8em;
     }
     header.small .logo {
-        margin-top: 10px;
+        margin-top: 7px;
         height: 30px;
     }
     header.small ul.menu-1 {

@@ -16,7 +16,7 @@
 body {
     background-color: #fff;
     font-family: 'Muli', sans-serif;
-    letter-spacing: 0.09em;
+    letter-spacing: 0.02em;
     font-size: 62, 5%;
     color: #141823;
 }
@@ -121,6 +121,7 @@ span.read_more small:hover {
     display: block;
     top: 20px;
     margin-top: 10px;
+    margin-left: 5px;
 }
 .section-header>p {
     position: absolute;
@@ -355,7 +356,6 @@ aside>div {
     margin: 8px auto 15px auto;
     text-transform: uppercase;
 }
-.newsletter__subscribe p {}
 
 .instagram-flex {
     display: -webkit-box;
@@ -368,7 +368,7 @@ aside>div {
     margin: 5px 5px;
 }
 
-.instagram img {
+.instagram-flex img {
     -webkit-box-flex:1;
     -ms-flex:1;
     flex:1;
@@ -376,6 +376,22 @@ aside>div {
     height: 40%;
     padding: 5px;
     border-radius: 2px;
+}
+
+.comments__content{
+    padding: 5px;
+    border-bottom: 2px solid #141823;
+}
+
+.comments__content:last-child {
+    border-bottom: none;
+}
+
+.comments__content p{
+    font-size: .9em;
+    line-height: 1.2em;
+    margin-left: 0;
+    padding-bottom: 5px;
 }
 /**************** footer *******************/
 
