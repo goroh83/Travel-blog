@@ -52,4 +52,26 @@ header {
 
 .blog>article {
     margin: 10px;
+    width: 45%;
+}
+
+aside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+aside>div {
+    width: 48%;
+    border: 1px solid #141823;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+
+.footer-container section {
+    min-width: 45%;
+    padding: 20px;
 }

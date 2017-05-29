@@ -24,18 +24,5 @@ if(wScroll > $('.photos').offset().top - ($(window).height() / 1.3)) {
         $('.photos figure').eq(i).addClass('showing');
         }, 100 *(i+1));
     });
-
 }
-
 })
-
-
-greet = 'Hrllo';
-greet = "hi";
-
-
-var english = { greet: 'Hello'};
-var spanish = { greet: 'Hola'};
-
-console.log(english.greet);
-console.log(spanish.greet);

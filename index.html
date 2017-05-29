@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <link href="css/max700.css" media="(max-width: 700px)" rel="stylesheet" type="text/css" />
-    <link href="css/min700.css" media="(min-width: 700px)" rel="stylesheet" type="text/css" />
+    <link href="css/max700.css" media="(max-width: 960px)" rel="stylesheet" type="text/css" />
+    <link href="css/min700.css" media="(min-width: 960px)" rel="stylesheet" type="text/css" />
     <title>Travel Blog</title>
 </head>
 
@@ -17,11 +17,11 @@
                 <a href="#"><img src="img/globe.svg" alt="globe icon" class="logo"></a>
 
                 <ul class="menu opacity">
-                    <li> <a href="#">home</a></li>
-                    <li> <a href="#">travel</a></li>
-                    <li> <a href="#">blog</a></li>
-                    <li> <a href="#">articles</a></li>
-                    <li> <a href="#">contact</a></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">travel</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">articles</a></li>
+                    <li><a href="#">contact</a></li>
                 </ul>
             </nav>
             <img src="img/compas.svg" alt="menu compas icon" class="compas">
@@ -44,27 +44,18 @@
                 <article>
                     <img src="img/blog-1.jpg" alt="">
                     <h3>Hangzhou after dark.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto modi cum atque, adipisci. Mollitia delectus maiores fuga eligendi neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, rerum qui numquam magni temporibus commodi autem?
-                        <br><span class="read_more"><small>read more</small></span>
-                        <br>
-                        <small>Published:<date>2017/05/12</date></small></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto modi cum atque, adipisci. Mollitia delectus maiores fuga eligendi neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, rerum qui numquam magni temporibus commodi autem?</p>
+                    <br><span class="read_more"><small>read more</small></span>
+                    <small class="published">Published:<date>2017/05/12</date></small>
                 </article>
                 <article>
                     <img src="img/blog-2.jpg" alt="">
                     <h3>Street photography.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto modi cum atque, adipisci. Mollitia delectus maiores fuga eligendi neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, rerum qui numquam magni temporibus commodi autem?
-                        <br><span class="read_more"><small>read more</small></span>
-                        <br>
-                        <small>Published:<date>2017/04/26</date></small></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto modi cum atque, adipisci. Mollitia delectus maiores fuga eligendi neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, rerum qui numquam magni temporibus commodi autem?</p>
+                    <br><span class="read_more"><small>read more</small></span>
+                    <small class="published">Published:<date>2017/04/26</date></small>
                 </article>
-                <article>
-                    <img src="img/blog-3.jpg" alt="">
-                    <h3>Chinese teashop.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto modi cum atque, adipisci. Mollitia delectus maiores fuga eligendi neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, rerum qui numquam magni temporibus commodi autem?
-                        <br><span class="read_more"><small>read more</small></span>
-                        <br>
-                        <small>Published:<date>2017/02/06</date></small></p>
-                </article>
+
             </section>
             <div class="section-header">
                 <h2>Articles</h2>
@@ -171,15 +162,15 @@
 
         </aside>
 
-
     </div>
-
 
     <footer>
         <div class="footer-container">
             <section>
                 <h3>About us</h3>
                 <p>Travel portal and blog
+                    <br> Articles from all over the world, photography.
+                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     <br> Articles from all over the world, photography.
                     <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
             </section>
@@ -190,29 +181,36 @@
                         <h4>Finding cheap flights</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             <br>
-                            <small>Published:<date>2017/05/12</date></small> </p>
-                    </div>
-                    <div class="footer-container__popular-posts--post">
-                        <h4>Finding cheap flights</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            <span class="read_more"><small>read more</small></span>
                             <br>
                             <small>Published:<date>2017/05/12</date></small> </p>
                     </div>
                     <div class="footer-container__popular-posts--post">
-                        <h4>Finding cheap flights</h4>
+                        <h4>Photo gear tips</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            <br>
+                            <span class="read_more"><small>read more</small></span>
+                            <br>
+                            <small>Published:<date>2017/05/12</date></small> </p>
+                    </div>
+                    <div class="footer-container__popular-posts--post">
+                        <h4>Top 10 packing hacks</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            <br>
+                            <span class="read_more"><small>read more</small></span>
                             <br>
                             <small>Published:<date>2017/05/12</date></small> </p>
                     </div>
                 </div>
             </section>
-            <section>
+            <section class="twitter">
                 <h3>Twitter</h3>
-                <p><img src="img/twitter.svg" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, officia suscipit tempore maxime. <small>Published:<date>2017/05/12</date></small></p>
-                <p><img src="img/twitter.svg" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, officia"
-                    <br><small>Published:<date>2017/05/12</date></small></p>
-                <p><img src="img/twitter.svg" alt="">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, officia suscipit officiis nobis odio magnam aperiam voluptatum tempore maxime."
-                    <br><small>Published:<date>2017/05/12</date></small></p>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, officia suscipit tempore maxime."
+                    <br><small><date>2017/05/12</date></small></p>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, officia"
+                    <br><small><date>2017/05/12</date></small></p>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, officia suscipit officiis nobis odio magnam aperiam voluptatum tempore maxime."
+                    <br><small><date>2017/05/12</date></small></p>
             </section>
             <section>
                 <h3>Contact</h3>
@@ -220,18 +218,20 @@
                     <br> Majors Lane 6095,
                     <br> 21045 Columbia,
                     <br> Maryland,
-                </p>
-                <tel>tel: 1-800-555-321
                     <br>
-                </tel>
-                <email>info@goroh.co</email>
+                    <tel>tel: 1-800-555-321</tel>
+                    <br>
+                    <email>email: info@goroh.co</email>
+                    <a href="http://goroh.co">www.goroh.co</a>
+                </p>
             </section>
 
 
-        </div>
 
-        <div class="copyright">
-            <p>designed by [goroh] studio &copy; 2017</p>
+
+            <div class="copyright">
+                designed by [goroh] studio &copy; 2017
+            </div>
         </div>
     </footer>
     <script src="js/jquery-3.2.1.min.js"></script>
