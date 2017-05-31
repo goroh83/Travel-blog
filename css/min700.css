@@ -34,6 +34,7 @@ header {
     }
     header.large ul {
         margin-top: 40px;
+        margin-right: 7px;
     }
     /* header small */
     header.small {
@@ -45,8 +46,12 @@ header {
         font-size: 0.8em;
     }
     header.small .logo {
-        margin-top: 7px;
+        margin-top: 9px;
         height: 30px;
+    }
+
+    header.small ul {
+        margin-right: 5px;
     }
     header.small ul.menu-1 {
         margin-top: 28px;
