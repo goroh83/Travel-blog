@@ -28,6 +28,34 @@ body {
     margin: 0 auto;
     position: relative;
 }
+
+.menu li a {
+    position: relative;
+}
+
+.menu li a::after {
+    content:'';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: .25px;
+    background: #141823;
+    -webkit-transition: .5s ease;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    width: 0;
+}
+
+
+.menu li a:hover:after {
+    width: 100%;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
 p {
     font-size: 1.2em;
 }
@@ -86,7 +114,7 @@ span.read_more small {
     border: 1px solid #141823;
     border-radius: 2px;
     margin: 5px 0px;
-    padding: 2px 3px 2px 3px;
+    padding: 4px 6px 4px 6px;
     -webkit-transition: all 300ms ease;
     -webkit-transition: all 750ms ease;
     transition: all 750ms ease;
@@ -333,9 +361,10 @@ aside>div {
     text-align: center;
     -webkit-transform: all 0.3ms ease-in;
     transform: all 0.3ms ease-in;
+    cursor: pointer;
 }
 .aside__follow__icons img:hover {
-    background-color: #e5e5e5;
+    background-color: #f1f1f1;
     border-radius: 3px;
 }
 .newsletter input {
@@ -362,6 +391,7 @@ aside>div {
     border-radius: 2px;
     margin: 8px auto 15px auto;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .instagram-flex {
     display: -webkit-box;
@@ -381,15 +411,17 @@ aside>div {
     height: 40%;
     padding: 5px;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 @media screen and ( max-width: 670px) {
     .instagram-flex img {
-        width: 33%;
-        height: 33%;
+        min-width: 33%;
+        min-height: 33%;
         padding: 2px;
     }
 }
+
 .comments__content {
     padding: 5px;
     border-bottom: 2px solid #141823;
@@ -707,6 +739,7 @@ aside>div {
 }
 .footer-container__popular-posts p {
     font-size: 1.1em;
+    cursor: pointer;
 }
 .copyright {
     width: 100%;
